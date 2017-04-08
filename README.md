@@ -21,11 +21,15 @@ front是测试项目中使用的数据库。
     
 3. 进入该容器。
 
+```
 docker exec -it mongo /bin/bash
+```
 
 4. 导入数据。
 
+```
 mongorestore -d front --dir /data/db/front
+```
 
 
 
